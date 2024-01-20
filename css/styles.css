@@ -71,3 +71,13 @@ h1 {
   background: gray;
   cursor: pointer;
 }
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+ }

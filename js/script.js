@@ -30,3 +30,7 @@ function createSketchbook(side){
         sketch.appendChild(div);
     }
 }
+
+var currentYear = new Date().getFullYear();
+
+document.querySelector(".footer").innerHTML += currentYear;
